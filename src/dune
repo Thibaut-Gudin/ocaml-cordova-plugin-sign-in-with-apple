@@ -1,0 +1,12 @@
+(rule
+ (targets cordova_sign_in_with_apple.ml)
+ (deps cordova_sign_in_with_apple.mli)
+ (action (run %{bin:gen_js_api} %{deps})))
+
+(library
+ (public_name cordova-plugin-sign_in_with_apple)
+ (name cordova_sign_in_with_apple)
+ (modes byte)
+ (libraries gen_js_api js_of_ocaml js_of_ocaml-ppx)
+ (preprocess (pps js_of_ocaml-ppx))
+)
