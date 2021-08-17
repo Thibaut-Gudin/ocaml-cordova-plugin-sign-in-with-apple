@@ -27,8 +27,8 @@ cordova plugin add cordova-plugin-sign-in-with-apple
 ## How to use it?
 
 You can see the [cordova-plugin usage
-documentation](https://github.com/twogate/cordova-plugin-sign-in-with-apple#usage)and
-the [Official
+documentation](https://github.com/twogate/cordova-plugin-sign-in-with-apple#usage)
+and the [Official
 Documentation](https://www.notion.so/Documentation-of-cordova-plugin-sign-in-with-apple-7a8022b3452246d3b8ea6cfb136140c1)
 for more details.
 
