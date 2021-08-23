@@ -4,8 +4,8 @@ Binding to [cordova-plugin-sign-in-with-apple](https://github.com/twogate/cordov
 
 ## What does ocaml-cordova-plugin-sign-in-with-apple do ?
 
-Like it's name suggest, this pluggin allow you to add a "sign-in"
-section into your web application with apple. This library can be used
+Like its name suggests, this plugin allows you to add a "sign-in"
+section in your web application with apple. This library can be used
 to access this "JavaScript" plugin into an ocaml application.
 
 ## How to install and compile your project by using this plugin ?
@@ -45,9 +45,9 @@ Each of the 2 callback takes a specific type for their argument: a
 `success` argument for the *onSuccess* and an `error` argument for
 the *onError* callback.
 
-### What can you do with a `sucess` value?
+### What can you do with a `success` value?
 
-You can access sevral string values within a `success` with the help of
+You can access several string values within a `success` with the help of
 functions defined into the ".mli" file, like for example:
 
           `Cordova_sign_in_with_apple.authorization_code`
@@ -67,7 +67,7 @@ within the *fullName*
 
 ### What can you do with an `error` value?
 
-You can access sevral string values within an `error` value with the
+You can access several string values within an `error` value with the
 help of functions defined into the ".mli" file like for example:
 
         `Cordova_sign_in_with_apple._error`
